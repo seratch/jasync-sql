@@ -1,7 +1,7 @@
 package com.github.jasync.sql.db.column
 
-import sun.net.util.IPAddressUtil.textToNumericFormatV4
-import sun.net.util.IPAddressUtil.textToNumericFormatV6
+import com.github.jasync.sql.db.util.IPAddressUtil.textToNumericFormatV4
+import com.github.jasync.sql.db.util.IPAddressUtil.textToNumericFormatV6
 import java.net.InetAddress
 
 object InetAddressEncoderDecoder : ColumnEncoderDecoder {
