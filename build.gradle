@@ -45,7 +45,7 @@ allprojects {
     }
     
     test {
-        jvmArgs '-Dio.netty.leakDetection.level=PARANOID'
+        jvmArgs '-Dio.netty.leakDetection.level=PARANOID -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -Xmx100M'
     }
 }
 subprojects {
