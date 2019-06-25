@@ -33,6 +33,9 @@ allprojects {
         experimental {
         }
     }
+    jacoco {
+        toolVersion = "0.8.3"
+    }
     compileKotlin {
         kotlinOptions.suppressWarnings = true
         kotlinOptions.jvmTarget = 1.8
